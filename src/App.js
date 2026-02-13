@@ -1,3 +1,4 @@
+import pownShop from './pownShop.png'
 function App() {
   return (
     <div className="bg-gray-100 text-gray-800">
@@ -5,7 +6,7 @@ function App() {
       {/* Navbar */}
       <nav className="bg-black text-white p-4 flex justify-between items-center h-16 overflow-hidden">
         {/* <h1 className="text-2xl font-bold text-yellow-400">GoldTrust Pawn</h1> */}
-        <img src="./assets/goldTrust.png" className="w-24 ml-4" />
+        <img src="./assets/goldTrust.png" className="w-24 ml-4" alt="img" />
         <div className="space-x-6">
           <a href="#" className="hover:text-yellow-400">Home</a>
           <a href="#" className="hover:text-yellow-400">Services</a>
@@ -15,7 +16,8 @@ function App() {
       </nav>
 
       {/* Hero Section */}
-      <section className="bg-yellow-500 text-black text-center py-20 px-4">
+      <section className="bg-yellow-400 text-black py-16 px-6 text-center">
+        {/* <img src={pownShop} alt="Pawn Shop" className="w-full max-w-md mx-auto object-contain" /> */}
         <h2 className="text-4xl md:text-5xl font-bold mb-6">
           Instant Cash for Your Valuables
         </h2>
@@ -142,7 +144,7 @@ function App() {
         <p>© 2026 GoldTrust Pawn Shop. All Rights Reserved.</p>
       </footer>
 
-    </div>
+    </div >
   );
 }
 

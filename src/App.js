@@ -1,4 +1,15 @@
-import pownShop from './pownShop.png'
+
+import './App.css';
+// import { Routes , Route } from 'react-router-dom';
+
+// import Footer from './components/FooterComponent/Footer';
+// import Header from './components/HeaderComponent/Header';
+// import Main from './components/MainComponent/Main';
+// import Nav from './components/NavComponent/Nav';
+// import Sidebar from './components/SidebarComponent/Sidebar';
+// import About from './components/AboutComponent/About';
+// import Contact from './components/ContactComponent/Contact';
+
 function App() {
   return (
     <div className="bg-gray-100 text-gray-800">
@@ -8,10 +19,12 @@ function App() {
         {/* <h1 className="text-2xl font-bold text-yellow-400">GoldTrust Pawn</h1> */}
         <img src="./assets/goldTrust.png" className="w-24 ml-4" alt="img" />
         <div className="space-x-6">
-          <a href="#" className="hover:text-yellow-400">Home</a>
-          <a href="#" className="hover:text-yellow-400">Services</a>
-          <a href="#" className="hover:text-yellow-400">Shop</a>
-          <a href="#" className="hover:text-yellow-400">Contact</a>
+          <a href="" className="hover:text-yellow-400">Home</a>
+          <a href="" className="hover:text-yellow-400">Contact</a>
+          <a href="" className="hover:text-yellow-400">Service</a>
+          <a href="" className="hover:text-yellow-400">About us</a>
+          <a href="" className="hover:text-yellow-400">Register</a>
+          <a href="" className="hover:text-yellow-400">Login</a>
         </div>
       </nav>
 
@@ -29,8 +42,17 @@ function App() {
         </button>
       </section>
 
+
+      {/* welcome to my project */}
+      <section className=" p-6 text-center bg-black text-white">
+        <h2 className="text-3xl font-bold mb-4 text-yellow-400">Welcome to Pawn shop</h2>
+
+        <p className="text-lg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt officia hic quo rem nobis aliquam provident quis fugit. Dolor, aut? Molestiae sequi animi aspernatur error pariatur! Ipsa ullam a minus illo beatae tempore eveniet, dolores id laborum voluptatum atque vel. Itaque quae inventore nulla omnis. Assumenda, repellat ullam. Delectus, esse commodi, obcaecati assumenda tempore earum distinctio magnam aliquid reprehenderit deserunt expedita eveniet reiciendis dolore laborum dolorem aut dicta! Officiis non minima maxime, quod rem ex voluptates maiores veniam eos inventore aliquam vero recusandae error a! Eius, accusantium perferendis molestias sunt quod excepturi, officia fugit vitae molestiae inventore minima, ipsam ab? Placeat consectetur ipsa explicabo ut voluptate totam maxime asperiores, labore itaque quae assumenda, iste, voluptates facilis accusantium! Voluptates necessitatibus, debitis consequatur quasi dignissimos inventore eaque quas at vitae quidem ipsum impedit dolores nisi modi. Voluptas odit perspiciatis consequatur, cupiditate incidunt omnis maiores dolorum explicabo amet illo facere harum fugit molestias optio quibusdam reprehenderit numquam nesciunt vero iure hic aut eligendi? Sapiente totam nesciunt ipsam amet distinctio quos possimus non itaque deleniti. Aperiam praesentium, cumque ad facere laboriosam fuga incidunt atque. Voluptates hic ducimus corrupti mollitia? Impedit cum atque hic sunt magnam. Pariatur quo aliquam quas mollitia quisquam tempora assumenda explicabo eligendi minus modi error officiis voluptas provident eos neque perferendis perspiciatis facilis rem, at reiciendis dolorum natus. Iure voluptatem iusto fugiat libero nulla itaque, corrupti distinctio velit nisi beatae dolorum neque provident. Fuga blanditiis dolor, eveniet molestias magni exercitationem? Nihil sapiente, minus expedita dolorem minima praesentium! Inventore enim veritatis explicabo eaque impedit doloribus. Esse, fuga optio? Explicabo velit minus rerum officia, voluptatum pariatur temporibus? Voluptatum explicabo tenetur nam eveniet cum sequi maxime in? Est, sequi accusamus. Perferendis, ipsam harum? Aliquid eligendi neque assumenda sed, magnam magni corporis asperiores facilis vitae cumque, deleniti in officia molestias eaque at deserunt suscipit natus?</p>
+      </section>
+
+
       {/* Services Section */}
-      <section className="py-16 px-6">
+      {/* <section className="py-16 px-6">
         <h3 className="text-3xl font-bold text-center mb-12">Our Services</h3>
         <div className="grid md:grid-cols-3 gap-8">
           <div className="bg-white p-6 rounded-xl shadow-lg text-center">
@@ -46,10 +68,10 @@ function App() {
             <p>Professional gold & diamond evaluation.</p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Featured Items */}
-      <section className="bg-gray-200 py-16 px-6">
+      {/* <section className="bg-gray-200 py-16 px-6">
         <h3 className="text-3xl font-bold text-center mb-12">Featured Items</h3>
         <div className="grid md:grid-cols-3 gap-8">
 
@@ -90,10 +112,10 @@ function App() {
           </div>
 
         </div>
-      </section>
+      </section> */}
 
       {/* Loan Calculator */}
-      <section className="py-16 px-6 text-center">
+      {/* <section className="py-16 px-6 text-center">
         <h3 className="text-3xl font-bold mb-8">Quick Loan Estimate</h3>
         <div className="max-w-md mx-auto bg-white p-8 rounded-xl shadow-lg">
           <input
@@ -110,10 +132,10 @@ function App() {
             Calculate
           </button>
         </div>
-      </section>
+      </section> */}
 
       {/* Contact Section */}
-      <section className="bg-black text-white py-16 px-6">
+      {/* <section className="bg-black text-white py-16 px-6">
         <h3 className="text-3xl font-bold text-center mb-8 text-yellow-400">
           Contact Us
         </h3>
@@ -137,11 +159,11 @@ function App() {
             Send Message
           </button>
         </div>
-      </section>
+      </section> */}
 
       {/* Footer */}
       <footer className="bg-gray-900 text-gray-400 text-center py-6">
-        <p>© 2026 GoldTrust Pawn Shop. All Rights Reserved.</p>
+        <p>© 2026 <span className="text-yellow-400">GoldTrust</span> <span className='text-orange-500'>Pawn shop</span>. All Rights Reserved.</p>
       </footer>
 
     </div >
